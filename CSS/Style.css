@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #dddddd4f;
+}
+.logo {
+    height: 55px;
+    width: 80px;
+}
+.carousel-item active img {
+    height: 360px;
+    object-fit: cover;
+    object-position: 100% 0;
+    //move image position in x direction. object-position: 0 100%;
+    //move image position in y direction.
+}
+.bg-dark {
+    background-color: #22282ff2 !important;
+}
+a.nav-link {
+    color: #e9edf1cc !important;
+}
+.page-footer {
+    background-color: #22282ff2 !important;
+}
+#greeting {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    padding-top: 35px;
+    background-color: #f5deb380;
+}
+.card {
+    margin: 30px 47px;
+    
+}
+.card-title:hover{
+    font-size:25px;
+}
